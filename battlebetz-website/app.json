@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Battle Betz",
+    "slug": "Battle Betz",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "favicon": "./assets/images/favicon.png",
+    "scheme": "battlebetz",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.battlebetz.app"
+    },
+    "android": {
+      "package": "com.battlebetz.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/favicon.png",
+        "backgroundColor": "#0D0D0D"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
