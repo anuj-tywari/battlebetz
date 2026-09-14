@@ -22,3 +22,6 @@ coverage/
 !.env.example
 *.pem
 *.key
+
+.git.bak.publish/
+**/.git.bak.publish/
